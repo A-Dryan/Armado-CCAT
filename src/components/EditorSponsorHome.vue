@@ -1,0 +1,25 @@
+<template>
+  <v-card
+    class="mx-auto"
+    max-width="200"
+  >
+    <v-img
+      src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+      height="auto"
+    ></v-img>
+    <v-file-input
+    multiple
+    label="Imagen"
+    class="mx-4"
+  ></v-file-input>
+   <div class="mx-3" style="display: flex; justify-content: flex-end;">
+            <v-btn
+              color="primary"
+              fab
+              dark
+            >
+              <v-icon>mdi-content-save</v-icon>
+            </v-btn>
+          </div>
+  </v-card>
+</template>
